@@ -322,12 +322,12 @@ class Mass_Planter_UI:
         group_sel = cmds.ls(sl=True, fl=True)
         
         for dummy_group in group_sel:
-            dummy_geo_list = cmds.listRelatives(dummy_group, c = True)
+            dummy_geo_list = cmds.listRelatives(dummy_group, c = True) or []
             for dummy_geo in dummy_geo_list:
-                mel.eval("CBdeleteConnection " + str(dummy_geo) + ".rx")
-                mel.eval("CBdeleteConnection " + str(dummy_geo) + ".ry")
-                mel.eval("CBdeleteConnection " + str(dummy_geo) + ".rz")
-                cmds.delete(dummy_geo + '_orientConstraint1')
+                attr_list = cmds.listRelatives(dummy_geo) or []
+                for attr in attr_list:
+                    if 'orientConstraint' in attr:
+                        cmds.delete(attr)
                 
         
 
