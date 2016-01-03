@@ -34,6 +34,8 @@ Palette Manager Module:
     1)  Palette Manager:
         - Select the geometry to be copied and click on Set To Palette to put into the Palette Manager.
         - to delete, click on the name and press the delete key or use Clear Palette for all.
+        ** For best results, set a good pivot point. Do not freeze translation transform or geometry
+           will not be at correct position.
 
 Run Module:
 
