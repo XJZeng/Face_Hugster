@@ -57,7 +57,8 @@ Rotate Constraint Module:
         - Select the group node and click the button.
         
     2)  Rehook Constrain:
-        - This allows the user to re-orient geometries to a previously set locator(group name and locator name must match).
+        - This allows the user to re-orient geometries to a previously set locator
+          (group name and locator name must match).
       
     3)  Break Constrain:
         - Deletes the constrains after rotation is done. 
