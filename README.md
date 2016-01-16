@@ -75,7 +75,7 @@ Face Hugster
 
 使い方：
 
-■Save Selection（選択保存)
+Save Selection（選択保存)
 
     いくつかの要素（頂点、エッジ、フェース、UV）又はオブジェクト（複数同時選択可）を保存しておく機能です。
 
@@ -93,7 +93,7 @@ Face Hugster
               ※シーンがセーブされていない場合は動作しません。
 
 
-■Duplicate From Selection（選択セットから複製）
+Duplicate From Selection（選択セットから複製）
 
     この機能は、選択保存したフェースを新しいジオメトリとして複製する事のできる機能です。
     ジオメトリーが重たい場合、少し時間がかかります。
@@ -101,7 +101,7 @@ Face Hugster
         1) Duplicate Selection
             - Selection Managerのリストから複製したい選択セットを選び、[Duplicate Seleciton]を押します。
 
-■Palette Manager（パレットマネージャー）
+Palette Manager（パレットマネージャー）
 
     ジオメトリーをリストに保存しておく機能です。
 
@@ -112,7 +112,7 @@ Face Hugster
               ※最良の結果を出すためには、ピボット位置を正確な位置にしてください。トランスフォームをフリーズする際は、
               0地点で行ってください。
 
-■Run Face Hugster（Face Hugsterの実行）
+Run Face Hugster（Face Hugsterの実行）
 
     Face Hugsterは、フェースに沿ってオブジェクトを配置する機能です。
     
@@ -125,7 +125,7 @@ Face Hugster
             4) [Run]ボタンを押して実行します。
             ※ビューポート上で、1)と2)で選択したものが選ばれているかどうかを確認してから実行してください。
 
-■Rotate Constraint Module
+Rotate Constraint Module
 
     選択したグループ内のジオメトリをロケータでオリエントコンストレイントにする機能です。
     複数のジオメトリを1つのコントロールで回転させます。
