@@ -77,7 +77,7 @@ Face Hugster
 
 ■Save Selection（選択保存)
 
-    #いくつかの要素（頂点、エッジ、フェース、UV）又はオブジェクト（複数同時選択可）を保存しておく機能です。
+    いくつかの要素（頂点、エッジ、フェース、UV）又はオブジェクト（複数同時選択可）を保存しておく機能です。
 
         1) Selection Manager
             - 選択保存したい要素又はオブジェクトを選択、[Save Selection]ボタンを押し、名前を付けて保存します。
@@ -95,15 +95,15 @@ Face Hugster
 
 ■Duplicate From Selection（選択セットから複製）
 
-    #この機能は、選択保存したフェースを新しいジオメトリとして複製する事のできる機能です。
-    #ジオメトリーが重たい場合、少し時間がかかります。
+    この機能は、選択保存したフェースを新しいジオメトリとして複製する事のできる機能です。
+    ジオメトリーが重たい場合、少し時間がかかります。
 
         1) Duplicate Selection
             - Selection Managerのリストから複製したい選択セットを選び、[Duplicate Seleciton]を押します。
 
 ■Palette Manager（パレットマネージャー）
 
-    #ジオメトリーをリストに保存しておく機能です。
+    ジオメトリーをリストに保存しておく機能です。
 
         1) Palette Manager
             - 保存したいジオメトリーを選択、[Set To Palette]ボタンを押し、Palette Managerに保存します。
@@ -114,7 +114,7 @@ Face Hugster
 
 ■Run Face Hugster（Face Hugsterの実行）
 
-    #Face Hugsterは、フェースに沿ってオブジェクトを配置する機能です。
+    Face Hugsterは、フェースに沿ってオブジェクトを配置する機能です。
     
         [RunCommand: Duplicate Type:]にて、複製配置するオブジェクトがインスタンスかコピーかを選択します。
 
@@ -127,8 +127,8 @@ Face Hugster
 
 ■Rotate Constraint Module
 
-    #選択したグループ内のジオメトリをロケータでオリエントコンストレイントにする機能です。
-    #複数のジオメトリを1つのコントロールで回転させます。
+    選択したグループ内のジオメトリをロケータでオリエントコンストレイントにする機能です。
+    複数のジオメトリを1つのコントロールで回転させます。
 
         1）Constrain Geometry：
             グループノードを選択して、[Constrain Geometry]ボタンを押してください。
