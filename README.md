@@ -83,7 +83,7 @@ Face Hugster
             - 選択保存したい要素又はオブジェクトを選択、[Save Selection]ボタンを押し、名前を付けて保存します。
             - Selection Managerから、名前を付けて保存した選択セットを選択することができます。
             - 選択セットを個々に削除するには、Selection Managerから名前を選択し、キーボード[Delete]を押します。
-              全ての選択セットを削除したい場合は、[Celar All Selection]ボタンを押します。
+              全ての選択セットを削除したい場合は、[Clear All Selection]ボタンを押します。
 
         2) Save And Load To File
             - 選択セットは[Save Selection To File]ボタンで、テキストファイルとして書き出し、保存しておくことができます。
