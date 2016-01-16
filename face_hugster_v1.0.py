@@ -120,7 +120,7 @@ class Mass_Planter_UI:
         self.run_option = 'Duplicate'
         self.bin_loc = None
         self.bin_file = None
-        window = cmds.window( title="Face Hugger", iconName='FceHug', widthHeight=(280, 490), s = False )   
+        window = cmds.window( title="Face Hugster", iconName='FceHug', w=280, h=220, s = True )   
         cmds.columnLayout( adjustableColumn=True, rowSpacing=10)
                 
         cmds.frameLayout( label='Selection Manager', borderStyle='in', cll=True, cl=True )
@@ -158,7 +158,7 @@ class Mass_Planter_UI:
         cmds.setParent( '..' )
         cmds.setParent( '..' )          
 
-        cmds.frameLayout( label='Run Face Hugger', borderStyle='in', cll=True, cl=True )        
+        cmds.frameLayout( label='Run Face Hugster', borderStyle='in', cll=True, cl=True )        
         cmds.text( label='Run Command:', align='left' )
         cmds.radioButtonGrp( label='Duplicate Type:', labelArray2=['Instance', 'Copy'], 
                 numberOfRadioButtons=2, cw3 =[85, 85, 85], cal = [1, 'left'], on1=partial(self.option_instance, 1)
