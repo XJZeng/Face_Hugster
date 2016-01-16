@@ -1,4 +1,5 @@
 # Face_Hugster
+*Japanese follows English
 
 How to use:
 
@@ -67,4 +68,73 @@ Rotate Constraint Module:
           
           
 
+--------------------------------------------------------
+Face Hugster
 
+フェースに沿ってオブジェクトを配置する機能です。
+
+使い方：
+
+■Save Selection（選択保存)
+
+    いくつかの要素（頂点、エッジ、フェース、UV）又はオブジェクト（複数同時選択可）を保存しておく機能です。
+
+        1) Selection Manager
+            - 選択保存したい要素又はオブジェクトを選択、[Save Selection]ボタンを押し、名前を付けて保存します。
+            - Selection Managerから、名前を付けて保存した選択セットを選択することができます。
+            - 選択セットを個々に削除するには、Selection Managerから名前を選択し、キーボード[Delete]を押します。
+              全ての選択セットを削除したい場合は、[Celar All Selection]ボタンを押します。
+
+        2) Save And Load To File
+            - 選択セットは[Save Selection To File]ボタンで、テキストファイルとして書き出し、保存しておくことができます。
+             （この時、Selection Managerに表示された全ての選択セットが保存されます。）
+              テキストファイルは、現在作業しているMayaのシーンデータが保存された場所と同一パスに保存されます。
+            - 保存した選択セットをロードするには、[Load Selection]を押します。
+              ※シーンがセーブされていない場合は動作しません。
+
+
+■Duplicate From Selection（選択セットから複製）
+
+    この機能は、選択保存したフェースを新しいジオメトリとして複製する事のできる機能です。
+    ジオメトリーが重たい場合、少し時間がかかります。
+
+        1) Duplicate Selection
+            - Selection Managerのリストから複製したい選択セットを選び、[Duplicate Seleciton]を押します。
+
+■Palette Manager（パレットマネージャー）
+
+    ジオメトリーをリストに保存しておく機能です。
+
+        1) Palette Manager
+            - 保存したいジオメトリーを選択、[Set To Palette]ボタンを押し、Palette Managerに保存します。
+            - 個々に削除するには、Palette Managerから名前を選択し、キーボード[Delete]を押します。
+              全てを削除したい場合は、[Clear Palette]ボタンを押します。
+              ※最良の結果を出すためには、ピボット位置を正確な位置にしてください。トランスフォームをフリーズする際は、
+              0地点で行ってください。
+
+■Run Face Hugster（Face Hugsterの実行）
+
+    Face Hugsterは、フェースに沿ってオブジェクトを配置する機能です。
+        [RunCommand: Duplicate Type:]にて、複製配置するオブジェクトがインスタンスかコピーかを選択します。
+
+        1)Run…ツール実行の際は、以下の手順で行ってください。
+            1) Selection Managerから、フェースに沿って配置させたい側の選択セットを選択します。
+            2) Palette Managerから、フェースに沿って配置したい側のジオメトリを選択します。
+            3) [Run Face Hugster/ Duplicate Type:]にて、複製するオブジェクトがインスタンスかコピーかを選択します。
+            4) [Run]ボタンを押して実行します。
+            ※ビューポート上で、1)と2)で選択したものが選ばれているかどうかを確認してから実行してください。
+
+■Rotate Constraint Module
+
+    選択したグループ内のジオメトリをロケータでオリエントコンストレイントにする機能です。
+    複数のジオメトリを1つのコントロールで回転させます。
+
+        1）Constrain Geometry：
+            グループノードを選択して、[Constrain Geometry]ボタンを押してください。
+
+        2) Rehook Constrain:
+            設定したロケータに、選択したジオメトリを再びオリエントコンストレイントにする機能です。
+            (グループの名前とロケータの名前が是非一致して下さい。）
+
+        3) Break Constrain:
+            ロケータとジオメトリ間のオリエントコンストレイントを解除します。
